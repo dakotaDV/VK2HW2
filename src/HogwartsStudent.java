@@ -69,6 +69,10 @@ public abstract class HogwartsStudent {
 
     @Override
     public String toString() {
-        return String.format("Студент %s, сила магии: %d; сила трансгрессии: %d, name,  magic,  transgression");
+        return "HogwartsStudent{" +
+                "Имя='" + name + '\'' +
+                ", сила магии=" + magic +
+                ", трансгрессия=" + transgression +
+                '}';
     }
 }

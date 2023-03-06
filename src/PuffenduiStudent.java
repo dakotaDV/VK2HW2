@@ -63,11 +63,15 @@ public class PuffenduiStudent extends HogwartsStudent {
                 );
             }
         }
+
     @Override
     public String toString() {
-        return String.format("%s, трудолюбие: %d; верность: %d, честность: %d, super.toString(), hardworking,  loyalty, honestyy");
+        return "PuffenduiStudent{" +
+                "трудолюбие=" + hardworking +
+                ", верность=" + loyalty +
+                ", честность=" + honesty +
+                "} " + super.toString();
     }
-
-    }
+}
 
 

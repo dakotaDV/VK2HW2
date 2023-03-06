@@ -86,8 +86,15 @@ public class SlizerinStudent extends HogwartsStudent {
             );
         }
     }
+
     @Override
     public String toString() {
-        return String.format("%s, хитрость: %d; решительсть: %d, амбициозность: %d, super.toString(), cunning, determination,  ambition,  resourcefulness, thirstForPower");
+        return "SlizerinStudent{" +
+                "хитросчть=" + cunning +
+                ", решительность=" + determination +
+                ", амбициозность=" + ambition +
+                ", находчивость=" + resourcefulness +
+                ", жажда власти=" + thirstForPower +
+                "} " + super.toString();
     }
 }

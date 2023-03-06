@@ -84,4 +84,5 @@ public class Main {
                 RANDOM.nextInt(100)
         );
     }
+
 }

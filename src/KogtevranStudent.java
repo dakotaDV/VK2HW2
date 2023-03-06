@@ -73,8 +73,14 @@ public class KogtevranStudent extends HogwartsStudent {
             );
         }
     }
+
     @Override
     public String toString() {
-        return String.format("%s, ,ум: %d; мудрость: %d, остроумеие: %d, творчество: %d,  super.toString(), cleverness, wisdom, wit,  creativity");
+        return "KogtevranStudent{" +
+                "сообразиельность=" + cleverness +
+                ", мудрость=" + wisdom +
+                ", остроумие=" + wit +
+                ", креативность=" + creativity +
+                "} " + super.toString();
     }
 }
